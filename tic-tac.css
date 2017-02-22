@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.container .tic-tac li{
+    width:30%;
+    height:100px;  
+    list-style:none;
+    border:1px solid #333;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    display:inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.container .tic-tac li.locked{
+    cursor: default
+}
+
+.container .tic-tac p{
+    font-size: 30px;
+    color: #d54111
+}
